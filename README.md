@@ -4,12 +4,12 @@ Test wordpress plugin. Access to book API
 > Installation:
 - Create a folder 'book-api-test' on plugins directory and clone the repository
 - Activate plugin on WP admin.
-- In settings/BookApiTestSettings configure API key and service URL.
+- On WP Admin, in settings/BookApiTestSettings configure API key and service URL.
 - Create a custom page with url /books
-- Access the books custom page to display the books
+- Access the books custom page to display the books data and filtering options.
 
 > Comments:
-- It was some time since I haven't worked on Wordpress plugin so I had to put up to date.
+- It was some time since I haven't worked on Wordpress plugins so I had to put myself up to date and took me a bit more of time (about 4 hours).
 - I didn't had time to do all improvements needed.
 - First thing I have added is automated testing for the developed code or refactor using a TDD approach.
 - The plugin only filters by a list of ISBN's or a collection alias, which are now hardcoded on the plugin main file.
